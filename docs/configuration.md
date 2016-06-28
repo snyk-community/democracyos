@@ -116,6 +116,12 @@ If this option is set to `true`, only users listed on `/admin/users` will be abl
 
 If this option is set to `true`, the application will be in a "hub" state and any user will be able to create it's own forum.
 
+#### **restrictForumCreation**
+* env: `RESTRICT_FORUM_CREATION`
+* default: `false`
+
+Only let's `staff` members to create new `Forums` when `multiForum` is `true.
+
 _**DISCLAIMER:** This option is in ALPHA state, expect a lot a changes not far away._
 
 #### **client**

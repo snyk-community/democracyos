@@ -13,6 +13,7 @@
   "staff": [],
   "allowEmailAliases": true,
   "facebookSignin": false,
+  "restrictForumCreation": false,
   "publicEmails": false,
   "auth": {
     "basic": {
@@ -75,7 +76,8 @@
     "tweetText",
     "segmentKey",
     "spamLimit",
-    "availableLocales"
+    "availableLocales",
+    "restrictForumCreation"
   ],
   "socialshare": {
     "siteName": "DemocracyOS",
