@@ -185,7 +185,8 @@
     "react-dom": "^15.3.0",
     "react-router": "^2.6.1",
     "simple-line-icons": "^2.3.2",
-    "supertest": "^1.1.0"
+    "supertest": "^1.1.0",
+    "xo": "^0.16.0"
   },
   "main": "pdr",
   "engines": {
@@ -199,5 +200,19 @@
     "clean": "NODE_PATH=. gulp clean",
     "heroku-postbuild": "gulp build --minify",
     "test": "NODE_PATH=. MONGO_URL=mongodb://localhost/DemocracyOS-test gulp test"
+  },
+  "xo": {
+    "space": 2,
+    "semicolon": false,
+    "env": [
+      "node",
+      "es6",
+      "browser"
+    ],
+    "rules": {
+      "import/no-extraneous-dependencies": 0,
+      "curly": ["error", "multi-line"],
+      "space-before-function-paren": ["error", "always"]
+    }
   }
 }
