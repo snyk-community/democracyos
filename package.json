@@ -210,6 +210,7 @@
       "browser"
     ],
     "rules": {
+      "babel/arrow-parens": 0,
       "import/no-extraneous-dependencies": 0,
       "curly": ["error", "multi-line"],
       "space-before-function-paren": ["error", "always"]
